@@ -4,14 +4,14 @@ export default function Header(){
   return (
     <HeaderContainer className="header">
       <div className="header-top">
-        <a>로그인</a>
+        <a href="/user">로그인</a>
         <a>회원가입</a>
         <a>고객센터</a>
         <a>마이페이지</a>
         <a>장바구니</a>
       </div>
       <div>
-
+        
       </div>
     </HeaderContainer>
   )
